@@ -1,7 +1,16 @@
 .about {
-	color: $color-primary-dark;
+	margin: -24rem 0 0 0;
+	background-color: $color-grey-light-1;
+	background-image: url('/img/yuppies.jpg');
+	 background-size: cover;
+	 height: 80vh;
 
-	
+	 &--primary {
+	 		
+	 		font-family: 'IBM Plex Serif';
+	 		font-size: 8.5rem;
+	 		margin: 20rem 0 0 0;
+	 }
 }
 
 

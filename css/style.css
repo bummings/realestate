@@ -20,6 +20,7 @@ html {
   font-size: 1.5rem; }
 
 body {
+  font-family: 'Open Sans';
   font-family: Helvetica;
   font-weight: 400;
   font-size: 1.7rem;
@@ -109,7 +110,15 @@ a {
       font-size: 1.5rem; }
 
 .about {
-  color: #000f01; }
+  margin: -24rem 0 0 0;
+  background-color: #f0f0f0;
+  background-image: url("/img/yuppies.jpg");
+  background-size: cover;
+  height: 80vh; }
+  .about--primary {
+    font-family: 'IBM Plex Serif';
+    font-size: 8.5rem;
+    margin: 20rem 0 0 0; }
 
 .header {
   display: flex;
@@ -180,6 +189,9 @@ a {
   .feedback--quote__main {
     text-align: center;
     font-size: 3rem;
+    font-family: IBM Plex Serif;
+    font-size: 700;
+    font-style: italic;
     width: 65vw;
     margin: 0px auto;
     color: #000f01;
@@ -289,3 +301,6 @@ a {
         height: 5rem;
         width: 5rem;
         margin-right: 4rem; }
+
+pre {
+  display: none !important; }
