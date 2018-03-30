@@ -1,0 +1,18 @@
+.input {
+
+		&--primary {
+			width: 45rem;
+			height: 6rem;
+			padding-left: 2rem;
+			font-family: Open Sans;
+			font-size: 1.6rem;
+			color: $color-white;
+			background: rgba(240,240,240,0.3);
+			border: none;
+			letter-spacing: 1.7px;
+
+			&::placeholder {
+				color: $color-grey-light-2;
+			}	
+		}	
+	}

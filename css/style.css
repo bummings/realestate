@@ -1,0 +1,291 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  background-color: #f0f0f0; }
+
+.container {
+  height: 120vh;
+  background-image: url("../img/street.jpg");
+  background-size: cover; }
+
+.selected {
+  border: 3px solid #f0f0f0; }
+
+.small-text {
+  font-size: 1.5rem; }
+
+body {
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 1.9;
+  color: #f0f0f0; }
+
+a {
+  color: #eee;
+  text-decoration: none;
+  padding: 1.6rem; }
+
+.button--primary {
+  background-color: #58DDAF;
+  height: 6rem;
+  width: 10rem;
+  font-family: Inter UI;
+  color: #f0f0f0;
+  font-size: 1.5rem;
+  border: none;
+  text-transform: uppercase; }
+
+.button--secondary {
+  background-color: #606778;
+  height: 6rem;
+  width: 19rem;
+  font-family: Inter UI;
+  color: #f0f0f0;
+  font-size: 1.5rem;
+  border: none; }
+
+.button--tertiary {
+  background-color: #f0f0f0;
+  height: 6rem;
+  width: 19rem;
+  border: 2px solid #606778;
+  font-family: Inter UI;
+  color: #606778;
+  font-size: 1.5rem; }
+
+.input--primary {
+  width: 45rem;
+  height: 6rem;
+  padding-left: 2rem;
+  font-family: Open Sans;
+  font-size: 1.6rem;
+  color: #fff;
+  background: rgba(240, 240, 240, 0.3);
+  border: none;
+  letter-spacing: 1.7px; }
+  .input--primary::placeholder {
+    color: #eee; }
+
+.menu {
+  display: flex;
+  justify-content: flex-end; }
+  .menu--logo {
+    height: 20%;
+    width: 20%;
+    margin-right: auto;
+    padding: 2.4rem 8rem 0 0; }
+  .menu--menu {
+    padding: 4.4rem 8rem 0 0;
+    font-family: Helvetica;
+    font-size: 1.3rem; }
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin: -18rem 0 5rem 0; }
+  .stats--statbox {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: black;
+    width: 14rem;
+    height: 4.5rem;
+    border: 2px solid #777;
+    padding: 4rem; }
+    .stats--statbox__number {
+      color: #000f01;
+      font-weight: 800;
+      font-size: 2.7rem; }
+    .stats--statbox__description {
+      color: #777;
+      font-size: 1.5rem; }
+
+.about {
+  color: #000f01; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: row wrap;
+  text-align: center;
+  height: 120vh; }
+  .header--headline {
+    margin-bottom: 59vh;
+    font-family: Inter UI;
+    font-size: 2.7rem; }
+  .header--sub {
+    font-size: 1.5rem;
+    color: #eee;
+    margin-bottom: 3rem; }
+
+.howitworks {
+  text-align: center;
+  background-color: #eee;
+  padding: 4rem;
+  color: #000f01;
+  margin: 0 0 10rem 0; }
+  .howitworks--headline {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Inter UI;
+    letter-spacing: 1.3rem; }
+  .howitworks--sub {
+    font-size: 1.5rem;
+    margin-bottom: 5rem; }
+  .howitworks--description {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .howitworks--description__box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 30rem;
+      margin: 0 5rem; }
+    .howitworks--description__icon {
+      height: 7rem;
+      width: 7rem; }
+    .howitworks--description__primary {
+      margin-top: 3rem;
+      color: #000f01; }
+    .howitworks--description__secondary {
+      text-align: center;
+      color: #999;
+      font-size: 1.5rem; }
+
+.feedback {
+  margin: 10rem 0 10rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .feedback--buttons {
+    display: flex;
+    justify-content: center; }
+  .feedback--quotationmark {
+    text-align: center;
+    color: #999;
+    font-size: 8rem;
+    margin: 0 0 -8rem 0; }
+  .feedback--quote__main {
+    text-align: center;
+    font-size: 3rem;
+    width: 65vw;
+    margin: 0px auto;
+    color: #000f01;
+    line-height: 1.6; }
+  .feedback--quote__name {
+    text-align: center;
+    font-size: 1.9rem;
+    color: #000f01; }
+  .feedback--quote__company {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333; }
+  .feedback--images {
+    display: flex;
+    justify-content: center; }
+    .feedback--images__image {
+      height: 12rem;
+      width: 12rem;
+      border-radius: 50%;
+      margin: 5rem; }
+      .feedback--images__image__unselected {
+        height: 12rem;
+        width: 12rem;
+        border-radius: 50%;
+        margin: 5rem;
+        filter: grayscale(100%) contrast(70%) blur(1px); }
+
+.findanagent {
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #606778;
+  background-image: linear-gradient(rgba(96, 103, 120, 0.5), rgba(96, 103, 120, 0.5)), url("/img/neighborhood.png");
+  background-size: cover; }
+  .findanagent--text {
+    color: #eee;
+    margin-right: 3rem;
+    font-size: 2.7rem; }
+
+.footer {
+  background-color: #606778;
+  height: 7rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .footer--menu {
+    display: flex;
+    margin: 3rem;
+    list-style: none; }
+    .footer--menu__item {
+      font-size: 1.5rem;
+      color: #f0f0f0;
+      margin-right: 2.5rem; }
+  .footer--social {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    list-style: none; }
+    .footer--social__icon {
+      margin-right: auto;
+      height: 3rem;
+      width: 3rem;
+      margin-right: 3rem; }
+
+.whychooseus {
+  color: #000f01;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 0 15rem 0; }
+  .whychooseus--headline {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Inter UI;
+    letter-spacing: 1.3rem;
+    text-transform: uppercase;
+    color: #000f01; }
+  .whychooseus--sub {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5rem; }
+  .whychooseus--reasons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    flex-wrap: wrap; }
+    .whychooseus--reasons__reason {
+      display: flex;
+      justify-content: center;
+      width: 3rem;
+      height: 15rem;
+      flex: 0 1 34%;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto; }
+      .whychooseus--reasons__reason__text {
+        display: flex;
+        flex-direction: column;
+        width: 25rem; }
+        .whychooseus--reasons__reason__text__secondary {
+          font-size: 1.5rem;
+          color: #777; }
+      .whychooseus--reasons__reason__icon {
+        height: 5rem;
+        width: 5rem;
+        margin-right: 4rem; }

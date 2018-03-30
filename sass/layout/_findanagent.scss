@@ -1,0 +1,21 @@
+.findanagent {
+	height: 45vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $color-secondary-dark;
+	background-image: 
+      linear-gradient(
+      rgba(96, 103, 120, 0.5), 
+      rgba(96, 103, 120, 0.5)
+    ),
+	 url('/img/neighborhood.png');
+	background-size: cover;
+
+	&--text {
+		color: $color-grey-light-2;
+		margin-right: 3rem;
+		font-size: $font-size-large;
+
+	}
+}

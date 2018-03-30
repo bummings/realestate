@@ -1,0 +1,45 @@
+.button {
+
+	&--primary {
+
+		background-color: $color-secondary-light;
+		height: 6rem;
+		width: 10rem;
+
+		font-family: $font-tertiary;
+		color: $color-grey-light-1;
+		font-size: $font-size-small;
+		border: none;
+		text-transform: uppercase;
+	}
+
+	&--secondary {
+		background-color: $color-secondary-dark;
+		height: 6rem;
+		width: 19rem;
+
+		font-family: $font-tertiary;
+		color: $color-grey-light-1;
+		font-size: $font-size-small;
+		border: none;
+	}
+
+	&--tertiary {
+		background-color: $color-grey-light-1;
+		height: 6rem;
+		width: 19rem;
+
+		border: 2px solid $color-secondary-dark;
+		font-family: $font-tertiary;
+		color: $color-button-secondary;
+		font-size: $font-size-small;
+	}
+}
+
+
+
+
+
+
+
+

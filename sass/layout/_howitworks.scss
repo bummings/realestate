@@ -1,0 +1,57 @@
+.howitworks {
+
+	
+	text-align: center;
+	background-color: $color-grey-light-2;
+	padding: 4rem;
+	color: $color-primary-dark;
+	margin: 0 0 10rem 0;
+
+
+	&--headline {
+		text-transform: uppercase;
+		font-size: $font-size-quote-large;
+		font-family: $font-tertiary;
+		letter-spacing: 1.3rem;
+	}
+
+	&--sub {
+		font-size: $font-size-small;
+		margin-bottom: 5rem;
+	}
+
+	&--description {
+
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+
+		&__box {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 30rem;
+			margin: 0 5rem;
+		}
+
+		&__icon {
+			height: 7rem;
+			width: 7rem;
+		}
+
+		&__primary {
+			margin-top: 3rem;
+			color: $color-primary-dark; 
+		}
+
+		&__secondary {
+			text-align: center;
+			color: $color-grey-dark-2;
+			font-size: $font-size-small;
+		}
+
+	}
+
+
+}

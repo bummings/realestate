@@ -1,0 +1,29 @@
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-flow: row wrap;
+	text-align: center;
+	height: 120vh;
+
+	&--headline {  //this is fucking dumb
+		margin-bottom: 59vh;
+		font-family: $font-tertiary;	
+		font-size: $font-size-large;	
+	}
+
+	&--sub {
+		font-size: $font-size-small;
+		color: $color-grey-light-2;
+		margin-bottom: 3rem;
+	}
+
+} 
+
+
+
+
+
+
+

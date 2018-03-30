@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	// max-width: 100%; //prevent horizontal scroll
+	// overflow-x: hidden;
+}
+
+
+html {
+	//default for 1rem, bruh
+	font-size: 62.5%;
+	background-color: $color-grey-light-1;
+}
+
+.container {
+	height: 120vh;
+	background-image: url('../img/street.jpg');
+	background-size: cover;
+}
+
+.selected {
+	border: 3px solid $color-grey-light-1;
+}
+
+.small-text {
+	font-size: $font-size-small;
+}

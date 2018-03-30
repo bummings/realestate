@@ -1,0 +1,32 @@
+.stats {
+		display: flex;
+		justify-content: center;
+		
+		// border: 10px solid red;
+		
+		margin: -18rem 0 5rem 0;	// nudge up top!!!
+
+		&--statbox {
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			align-items: center;
+			background-color: $color-grey-light-1;
+			color: black;
+			width: 14rem;
+			height: 4.5rem;
+			border: 2px solid $color-grey-dark;
+			padding: 4rem;
+
+				&__number {
+					color: $color-primary-dark;
+					font-weight: 800;
+					font-size: $font-size-large;
+				}
+
+				&__description {
+					color: $color-grey-dark;
+					font-size: $font-size-small;
+				}
+		}
+}
