@@ -2,8 +2,6 @@
 		display: flex;
 		justify-content: center;
 		
-		// border: 10px solid red;
-		
 		margin: -18rem 0 5rem 0;	// nudge up top!!!
 
 		&--statbox {
@@ -15,7 +13,7 @@
 			color: black;
 			width: 14rem;
 			height: 4.5rem;
-			border: 2px solid $color-grey-dark;
+			border: 3px solid $color-secondary-light;
 			padding: 4rem;
 
 				&__number {
