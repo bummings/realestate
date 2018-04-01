@@ -13,7 +13,7 @@ html {
   background-image: url("../img/street.jpg");
   background-size: cover; }
 
-.selected {
+.menuSelected {
   border: 3px solid #f0f0f0; }
 
 .small-text {
@@ -200,7 +200,7 @@ a {
     text-align: center;
     font-size: 1.9rem;
     color: #000f01; }
-  .feedback--quote__company {
+  .feedback--quote__city {
     text-align: center;
     font-size: 1.5rem;
     color: #333; }

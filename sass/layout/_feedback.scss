@@ -3,7 +3,7 @@
 	margin: 10rem 0 10rem 0;
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: column; 
 	
 	&--buttons {
 		display: flex;
@@ -40,7 +40,7 @@
 			color: $color-primary-dark;
 		}
 
-		&__company {
+		&__city {
 			text-align: center;
 			font-size: $font-size-small;
 			color: $color-grey-dark-3;
@@ -59,12 +59,12 @@
 			border-radius: 50%;
 			margin: 5rem;
 
-			&__unselected {
-			height: 12rem;
-			width: 12rem;
-			border-radius: 50%;
-			margin: 5rem;
-			filter: grayscale(100%) contrast(70%) blur(1px);
+				&__unselected {
+					height: 12rem;
+					width: 12rem;
+					border-radius: 50%;
+					margin: 5rem;
+					filter: grayscale(100%) contrast(70%) blur(1px);
 			}
 		}
 	}
