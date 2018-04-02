@@ -28,10 +28,10 @@
 			font-size: 700;
 			font-style: italic;
 			width: 65vw;
+			height: 3em;
 			margin: 0px auto;
 			color: $color-primary-dark;
-			line-height: 1.6;
-			
+			line-height: 1.6;			
 		}
 
 		&__name {
@@ -44,6 +44,12 @@
 			text-align: center;
 			font-size: $font-size-small;
 			color: $color-grey-dark-3;
+		}
+
+		&__quoteFade {
+			animation-name: quoteFade;
+			animation-duration: 1s;
+			animation-timing-function: linear;
 		}
 	}
 
@@ -58,6 +64,10 @@
 			width: 12rem;
 			border-radius: 50%;
 			margin: 5rem;
+			animation-name: userSelected;
+			animation-duration: .5s;
+			animation-timing-function: linear;
+			animation-delay: 0s;
 
 				&__unselected {
 					height: 12rem;
@@ -65,7 +75,21 @@
 					border-radius: 50%;
 					margin: 5rem;
 					filter: grayscale(100%) contrast(70%) blur(1px);
-			}
+				}
+
+				&__userSelect {
+					animation-name: userSelect;
+					animation-duration: .5s;
+					animation-fill-mode: forwards;
+				}
+
+				&__userUnselect {
+					animation-name: userSelect;
+					animation-duration: .5s;
+					// animation-fill-mode: forwards;
+					animation-direction: reverse;	
+				}
+			
 		}
 	}
 }

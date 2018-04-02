@@ -193,6 +193,7 @@ a {
     font-size: 700;
     font-style: italic;
     width: 65vw;
+    height: 3em;
     margin: 0px auto;
     color: #000f01;
     line-height: 1.6; }
@@ -204,6 +205,10 @@ a {
     text-align: center;
     font-size: 1.5rem;
     color: #333; }
+  .feedback--quote__quoteFade {
+    animation-name: quoteFade;
+    animation-duration: 1s;
+    animation-timing-function: linear; }
   .feedback--images {
     display: flex;
     justify-content: center; }
@@ -211,13 +216,25 @@ a {
       height: 12rem;
       width: 12rem;
       border-radius: 50%;
-      margin: 5rem; }
+      margin: 5rem;
+      animation-name: userSelected;
+      animation-duration: .5s;
+      animation-timing-function: linear;
+      animation-delay: 0s; }
       .feedback--images__image__unselected {
         height: 12rem;
         width: 12rem;
         border-radius: 50%;
         margin: 5rem;
         filter: grayscale(100%) contrast(70%) blur(1px); }
+      .feedback--images__image__userSelect {
+        animation-name: userSelect;
+        animation-duration: .5s;
+        animation-fill-mode: forwards; }
+      .feedback--images__image__userUnselect {
+        animation-name: userSelect;
+        animation-duration: .5s;
+        animation-direction: reverse; }
 
 .findanagent {
   height: 45vh;
@@ -285,7 +302,7 @@ a {
       display: flex;
       justify-content: center;
       width: 3rem;
-      height: 15rem;
+      height: 20rem;
       flex: 0 1 34%;
       display: flex;
       margin-left: auto;
@@ -301,6 +318,18 @@ a {
         height: 5rem;
         width: 5rem;
         margin-right: 4rem; }
+
+@keyframes userSelect {
+  0% {
+    filter: grayscale(100%) blur(1px); }
+  100% {
+    filter: grayscale(1%); } }
+
+@keyframes quoteFade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 pre {
   display: none !important; }
