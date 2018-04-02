@@ -242,7 +242,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #606778;
-  background-image: linear-gradient(rgba(96, 103, 120, 0.5), rgba(96, 103, 120, 0.5)), url("/img/neighborhood.png");
+  background-image: linear-gradient(rgba(96, 103, 120, 0.5), rgba(96, 103, 120, 0.5)), url("../img/neighborhood.jpg");
   background-size: cover; }
   .findanagent--text {
     color: #eee;
@@ -251,7 +251,7 @@ a {
 
 .footer {
   background-color: #606778;
-  height: 7rem;
+  height: 9rem;
   display: flex;
   justify-content: flex-end;
   align-items: center; }
